@@ -58,6 +58,10 @@ public:
 
     MPU9250_() : aRes(getAres()), gRes(getGres()), mRes(getMres()) {}
 
+    void setGyroMeasurementError(float error) {
+      qFilter.setError(error);
+    }
+
     void setup(WireType& w = Wire)
     {
         wire = &w;
