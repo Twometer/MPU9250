@@ -1,7 +1,7 @@
 # MPU9250
 Arduino library for [MPU9250](https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/) Nine-Axis (Gyro + Accelerometer + Compass) MEMS MotionTracking™ Device
 
-This library is based on the [great work](https://github.com/kriswiner/MPU9250) by [kriswiner](https://github.com/kriswiner), and re-writen for the simple usage.
+This library is based on the [great work](https://github.com/kriswiner/MPU9250) by [kriswiner](https://github.com/kriswiner), and re-written for the simple usage.
 
 ## Usage
 
@@ -75,7 +75,7 @@ void loop()
 }
 ```
 
-### 
+###
 
 ## Other Settings
 
@@ -113,9 +113,9 @@ MPU9250 class is defined as follows.
 
 ```C++
 template <
-	typename WireType, 
-	AFS AFSSEL = AFS::A16G, 
-	GFS GFSSEL = GFS::G2000DPS, 
+	typename WireType,
+	AFS AFSSEL = AFS::A16G,
+	GFS GFSSEL = GFS::G2000DPS,
 	MFS MFSSEL = MFS::M16BITS
 >
 class MPU9250_;
